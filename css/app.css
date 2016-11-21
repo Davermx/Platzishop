@@ -1,0 +1,127 @@
+body{
+font-family: 'Montserrat', sans-serif;	
+
+}
+
+.Titulo{
+	font-family: 'Lily Script One', cursive;
+	/*font-family: 'Pacifico', cursive;*/
+	padding: 10px 5px
+}
+
+#header-container,
+#info-container {
+  background-color: #0481E7;
+  color: white;
+}
+
+h5{
+	color:white;
+}
+
+#header-container .login,
+#header-container .navbar-toggler {
+	color: white;
+}
+
+#menu-container {
+	background-color: #f7f7f9;
+}
+
+.btn.btn-platzi {
+	background-color: #e67e22;
+	color: white;
+}
+
+.btn.btn-platzi:hover {
+background-color: #2c3e50;
+}
+
+input.form-control:focus {
+border-color: #99c84a;
+}
+
+#search-bar {
+	padding: 1em;
+}
+
+#ProductosCarousel img {
+	margin: 0 auto;
+}
+
+#info-container h4 {
+	margin: 1em auto;
+}
+
+#info-container img {
+margin: 0 auto;
+margin-top: 2em;
+}
+
+#footer-container {
+	background-color: #1c3643;
+	color: white;
+	padding: 3em 0;
+}
+
+
+#footer-container h4{
+	font-size: 16px;
+}
+
+
+#footer-container .nav-link {
+color: white;
+}
+
+@media(max-width: 768px){
+	#footer-container [class*="col-"]{
+	margin-bottom: 2em;		
+	}
+}
+
+#breadcrumb-container .breadcrumb {
+	background-color: white;
+	padding-left: 0:  
+}
+
+#breadcrumb-container .breadcrumb .breadcrumb-item{
+	color: #1c3643;
+}
+
+
+#breadcrumb-container .breadcrumb .breadcrumb-item.active {
+	color: #2c3e50;
+}
+
+#breadcrumb-container .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+content: "|";
+}
+
+#filtros-container .list-group-item-action-ative {
+background-color: #2c3e50;
+border-color: #2c3e50;
+}
+
+#filtros-container .list-group {
+	margin-bottom: 1em;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+background-color: #2c3e50;
+border-color: #2c3e50;
+
+}
+
+.card-block {
+    padding: 10px 15px;
+    background: rgba(246,249,252,0.5);
+}
+
+.titulo-carrito {
+	padding: 20px 10px;
+}
+
+.form-control{
+	text-align: center;
+}
